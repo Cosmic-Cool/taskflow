@@ -1,5 +1,6 @@
 list(APPEND TF_EXAMPLES
-  simple 
+  simple
+  cosmos_example
   attach_data
   async
   async_module

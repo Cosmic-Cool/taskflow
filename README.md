@@ -71,6 +71,8 @@ See a quick [presentation](https://taskflow.github.io/) and
 visit the [documentation][documentation] to learn more about Taskflow.
 Technical details can be referred to our [IEEE TPDS paper][TPDS22].
 
+For comprehensive architecture documentation with visual diagrams, see the [Cosmos Architecture Documentation](docs/cosmos-index.md) which provides detailed insights into Taskflow's enlightened management principles and technical architecture.
+
 # Start Your First Taskflow Program
 
 The following program (`simple.cpp`) creates a taskflow of four tasks 
@@ -117,6 +119,14 @@ TaskA
 TaskC 
 TaskB 
 TaskD
+```
+
+For a more comprehensive example showcasing advanced Taskflow features with enlightened management principles, try the cosmos example:
+
+```bash
+~$ g++ -std=c++20 examples/cosmos_example.cpp -I. -O2 -pthread -o cosmos_example
+~$ ./cosmos_example
+# Demonstrates dynamic subflows, conditional execution, runtime awareness, and more
 ```
 
 # Visualize Your First Taskflow Program
